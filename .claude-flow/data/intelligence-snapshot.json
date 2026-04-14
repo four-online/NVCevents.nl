@@ -1,0 +1,332 @@
+[
+  {
+    "timestamp": 1776158050735,
+    "nodes": 14,
+    "edges": 8,
+    "pageRankSum": 1,
+    "confidences": [
+      0.53,
+      0.5,
+      0.53,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.6200000000000001,
+      0.5900000000000001,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "accessCounts": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-project_juo_integration-openstaand",
+        "summary": "Openstaand",
+        "confidence": 0.5,
+        "pageRank": 0.16399390350343251,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-huidige-staat-op-de-store",
+        "summary": "Huidige staat op de store",
+        "confidence": 0.5900000000000001,
+        "pageRank": 0.10159909883513785,
+        "accessCount": 3
+      },
+      {
+        "id": "mem-project_juo_integration-status",
+        "summary": "Status",
+        "confidence": 0.6200000000000001,
+        "pageRank": 0.07306445858749706,
+        "accessCount": 4
+      },
+      {
+        "id": "mem-project_juo_integration-huidige-staat--24-maart-2026-",
+        "summary": "Huidige staat (24 maart 2026)",
+        "confidence": 0.5,
+        "pageRank": 0.14646999456134585,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-wat-moet-gebeuren",
+        "summary": "Wat moet gebeuren",
+        "confidence": 0.5,
+        "pageRank": 0.12585360198929904,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-MEMORY-feedback",
+        "summary": "Feedback",
+        "confidence": 0.5,
+        "pageRank": 0.07306445858749706,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-feedback_blooms_product_content----",
+        "summary": "---",
+        "confidence": 0.53,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 1
+      },
+      {
+        "id": "mem-user_workflow----",
+        "summary": "---",
+        "confidence": 0.53,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 1
+      },
+      {
+        "id": "mem-MEMORY-memory-index",
+        "summary": "Memory Index",
+        "confidence": 0.5,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-MEMORY-project",
+        "summary": "Project",
+        "confidence": 0.5,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1776160001656,
+    "nodes": 14,
+    "edges": 8,
+    "pageRankSum": 1,
+    "confidences": [
+      0.53,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.53,
+      0.53,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "accessCounts": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-project_juo_integration-openstaand",
+        "summary": "Openstaand",
+        "confidence": 0.5,
+        "pageRank": 0.16399390350343251,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-huidige-staat--24-maart-2026-",
+        "summary": "Huidige staat (24 maart 2026)",
+        "confidence": 0.5,
+        "pageRank": 0.14646999456134585,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-wat-moet-gebeuren",
+        "summary": "Wat moet gebeuren",
+        "confidence": 0.5,
+        "pageRank": 0.12585360198929904,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-huidige-staat-op-de-store",
+        "summary": "Huidige staat op de store",
+        "confidence": 0.53,
+        "pageRank": 0.10159909883513785,
+        "accessCount": 1
+      },
+      {
+        "id": "mem-project_juo_integration-status",
+        "summary": "Status",
+        "confidence": 0.53,
+        "pageRank": 0.07306445858749706,
+        "accessCount": 1
+      },
+      {
+        "id": "mem-MEMORY-feedback",
+        "summary": "Feedback",
+        "confidence": 0.5,
+        "pageRank": 0.07306445858749706,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-feedback_blooms_product_content----",
+        "summary": "---",
+        "confidence": 0.53,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 1
+      },
+      {
+        "id": "mem-MEMORY-memory-index",
+        "summary": "Memory Index",
+        "confidence": 0.5,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_workflow----",
+        "summary": "---",
+        "confidence": 0.5,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-MEMORY-project",
+        "summary": "Project",
+        "confidence": 0.5,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      }
+    ]
+  },
+  {
+    "timestamp": 1776162654881,
+    "nodes": 14,
+    "edges": 8,
+    "pageRankSum": 1,
+    "confidences": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "accessCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-project_juo_integration-openstaand",
+        "summary": "Openstaand",
+        "confidence": 0.5,
+        "pageRank": 0.16399390350343251,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-huidige-staat--24-maart-2026-",
+        "summary": "Huidige staat (24 maart 2026)",
+        "confidence": 0.5,
+        "pageRank": 0.14646999456134585,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-wat-moet-gebeuren",
+        "summary": "Wat moet gebeuren",
+        "confidence": 0.5,
+        "pageRank": 0.12585360198929904,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-huidige-staat-op-de-store",
+        "summary": "Huidige staat op de store",
+        "confidence": 0.5,
+        "pageRank": 0.10159909883513785,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-MEMORY-feedback",
+        "summary": "Feedback",
+        "confidence": 0.5,
+        "pageRank": 0.07306445858749706,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-status",
+        "summary": "Status",
+        "confidence": 0.5,
+        "pageRank": 0.07306445858749706,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-feedback_blooms_product_content----",
+        "summary": "---",
+        "confidence": 0.5,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-MEMORY-memory-index",
+        "summary": "Memory Index",
+        "confidence": 0.5,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_workflow----",
+        "summary": "---",
+        "confidence": 0.5,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-MEMORY-project",
+        "summary": "Project",
+        "confidence": 0.5,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      }
+    ]
+  }
+]

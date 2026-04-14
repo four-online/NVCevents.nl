@@ -1,0 +1,23 @@
+{
+  "id": "session-1776158121127",
+  "startedAt": "2026-04-14T09:15:21.127Z",
+  "cwd": "/Users/jarnevdg/NVCevents.nl",
+  "context": {
+    "lastMatchedPatterns": [
+      "mem-project_juo_integration-openstaand",
+      "mem-project_juo_integration-huidige-staat--24-maart-2026-",
+      "mem-project_juo_integration-wat-moet-gebeuren",
+      "mem-project_juo_integration-huidige-staat-op-de-store",
+      "mem-project_juo_integration-status"
+    ]
+  },
+  "metrics": {
+    "edits": 13,
+    "commands": 0,
+    "tasks": 0,
+    "errors": 0
+  },
+  "updatedAt": "2026-04-14T09:30:27.689Z",
+  "endedAt": "2026-04-14T09:46:41.658Z",
+  "duration": 1880535
+}

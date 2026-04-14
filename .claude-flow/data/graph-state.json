@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "updatedAt": 1776162654880,
+  "nodeCount": 14,
+  "nodes": {
+    "mem-feedback_blooms_product_content----": {
+      "id": "mem-feedback_blooms_product_content----",
+      "category": "feedback_blooms_product_content",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677286
+    },
+    "mem-MEMORY-memory-index": {
+      "id": "mem-MEMORY-memory-index",
+      "category": "core",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677288
+    },
+    "mem-user_workflow----": {
+      "id": "mem-user_workflow----",
+      "category": "user_workflow",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677288
+    },
+    "mem-MEMORY-project": {
+      "id": "mem-MEMORY-project",
+      "category": "core",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677289
+    },
+    "mem-MEMORY-feedback": {
+      "id": "mem-MEMORY-feedback",
+      "category": "core",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677289
+    },
+    "mem-feedback_no_rebuild_without_sync----": {
+      "id": "mem-feedback_no_rebuild_without_sync----",
+      "category": "feedback_no_rebuild_without_sync",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677289
+    },
+    "mem-project_juo_integration----": {
+      "id": "mem-project_juo_integration----",
+      "category": "project_juo_integration",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677290
+    },
+    "mem-project_juo_integration-status": {
+      "id": "mem-project_juo_integration-status",
+      "category": "project_juo_integration",
+      "confidence": 0.56,
+      "accessCount": 2,
+      "createdAt": 1776155677290
+    },
+    "mem-project_juo_integration-huidige-staat-op-de-store": {
+      "id": "mem-project_juo_integration-huidige-staat-op-de-store",
+      "category": "project_juo_integration",
+      "confidence": 0.53,
+      "accessCount": 1,
+      "createdAt": 1776155677290
+    },
+    "mem-project_juo_integration-wat-moet-gebeuren": {
+      "id": "mem-project_juo_integration-wat-moet-gebeuren",
+      "category": "project_juo_integration",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677290
+    },
+    "mem-project_juo_integration-huidige-staat--24-maart-2026-": {
+      "id": "mem-project_juo_integration-huidige-staat--24-maart-2026-",
+      "category": "project_juo_integration",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677290
+    },
+    "mem-project_juo_integration-openstaand": {
+      "id": "mem-project_juo_integration-openstaand",
+      "category": "project_juo_integration",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677290
+    },
+    "mem-feedback_product_content_reversal----": {
+      "id": "mem-feedback_product_content_reversal----",
+      "category": "feedback_product_content_reversal",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776155677292
+    },
+    "insight-1776158050729-g29q": {
+      "id": "insight-1776158050729-g29q",
+      "category": "insights",
+      "confidence": 0.5,
+      "accessCount": 0,
+      "createdAt": 1776158050729
+    }
+  },
+  "edges": [
+    {
+      "sourceId": "mem-MEMORY-project",
+      "targetId": "mem-MEMORY-feedback",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-project_juo_integration----",
+      "targetId": "mem-project_juo_integration-status",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-project_juo_integration-status",
+      "targetId": "mem-project_juo_integration-huidige-staat-op-de-store",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-project_juo_integration-huidige-staat-op-de-store",
+      "targetId": "mem-project_juo_integration-wat-moet-gebeuren",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-project_juo_integration-wat-moet-gebeuren",
+      "targetId": "mem-project_juo_integration-huidige-staat--24-maart-2026-",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-project_juo_integration-huidige-staat--24-maart-2026-",
+      "targetId": "mem-project_juo_integration-openstaand",
+      "type": "temporal",
+      "weight": 0.5
+    },
+    {
+      "sourceId": "mem-MEMORY-project",
+      "targetId": "mem-MEMORY-feedback",
+      "type": "similar",
+      "weight": 0.3949579831932773
+    },
+    {
+      "sourceId": "mem-project_juo_integration----",
+      "targetId": "mem-project_juo_integration-status",
+      "type": "similar",
+      "weight": 0.3624161073825503
+    }
+  ],
+  "pageRanks": {
+    "mem-feedback_blooms_product_content----": 0.03949431049197381,
+    "mem-MEMORY-memory-index": 0.03949431049197381,
+    "mem-user_workflow----": 0.03949431049197381,
+    "mem-MEMORY-project": 0.03949431049197381,
+    "mem-MEMORY-feedback": 0.07306445858749706,
+    "mem-feedback_no_rebuild_without_sync----": 0.03949431049197381,
+    "mem-project_juo_integration----": 0.03949431049197381,
+    "mem-project_juo_integration-status": 0.07306445858749706,
+    "mem-project_juo_integration-huidige-staat-op-de-store": 0.10159909883513785,
+    "mem-project_juo_integration-wat-moet-gebeuren": 0.12585360198929904,
+    "mem-project_juo_integration-huidige-staat--24-maart-2026-": 0.14646999456134585,
+    "mem-project_juo_integration-openstaand": 0.16399390350343251,
+    "mem-feedback_product_content_reversal----": 0.03949431049197381,
+    "insight-1776158050729-g29q": 0.03949431049197381
+  }
+}

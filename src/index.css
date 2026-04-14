@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Oswald";
+  src: url("./assets/Oswald-Variable.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: transparent;
+  color: #e5e7eb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Oswald", system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
+
+::selection {
+  background-color: rgba(220, 38, 38, 0.4);
+  color: #fff;
+}
+
