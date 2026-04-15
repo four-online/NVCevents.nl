@@ -5,15 +5,16 @@
   "context": {
     "lastMatchedPatterns": [
       "mem-project_juo_integration-openstaand",
+      "mem-project_juo_integration-wat-moet-gebeuren",
       "mem-project_juo_integration-huidige-staat--24-maart-2026-",
-      "mem-project_juo_integration-wat-moet-gebeuren"
+      "mem-project_juo_integration-status"
     ]
   },
   "metrics": {
-    "edits": 11,
+    "edits": 12,
     "commands": 0,
     "tasks": 0,
     "errors": 0
   },
-  "updatedAt": "2026-04-15T15:07:29.054Z"
+  "updatedAt": "2026-04-15T15:09:07.935Z"
 }
