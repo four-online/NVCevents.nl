@@ -26,6 +26,8 @@ export default function Hero() {
             { label: EVENT.dateDisplay, value: "Datum" },
             { label: EVENT.location, value: "Locatie" },
             { label: EVENT.doors, value: "Doors" },
+            { label: "€ 54,-", value: "Regular" },
+            { label: "€ 84,-", value: "Golden Circle" },
           ].map((item) => (
             <div
               key={item.value}
