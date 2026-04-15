@@ -1,7 +1,7 @@
 import { EVENT } from "../data/siteConfig";
 import CTAButton from "../components/CTAButton";
 
-import flyerImage from "../assets/flyer.png";
+import flyerImage from "../assets/flyer.jpg";
 
 export default function Hero() {
   return (
