@@ -41,9 +41,11 @@ export default function Hero() {
           ))}
         </div>
 
-<CTAButton className="hidden md:inline-block text-base sm:text-lg px-10 py-5">
-          Get Tickets
-        </CTAButton>
+<div className="hidden md:block">
+          <CTAButton className="text-base sm:text-lg px-10 py-5">
+            Get Tickets
+          </CTAButton>
+        </div>
       </div>
     </section>
   );

@@ -201,9 +201,9 @@
       "content": "- **JS/CSS**: Originele deployed versie (design intact)\n- **Liquid section**: Heeft een DOM overlay script dat frequentie labels, prijzen, en selling plan IDs injecteert via Storefront API\n- **Probleem**: DOM overlay is fragiel — hardcoded content flasht, product filtering werkt niet betrouwbaar, React overschrijft DOM wijzigingen",
       "summary": "Huidige staat op de store",
       "category": "project_juo_integration",
-      "confidence": 0.56,
+      "confidence": 0.5900000000000001,
       "pageRank": 0.10159909883513785,
-      "accessCount": 2,
+      "accessCount": 3,
       "words": [
         "css",
         "originele",
