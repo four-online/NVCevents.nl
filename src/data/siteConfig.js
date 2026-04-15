@@ -1,4 +1,4 @@
-export const TICKET_URL = "https://tickets.example.com";
+export const TICKET_URL = "https://shop.tickets.cm.com/8bcb2589-7e9f-5685-42f7-5d6a7388db41";
 
 export const EVENT = {
   name: "CHO & The Homies",

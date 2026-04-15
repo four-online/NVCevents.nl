@@ -55,15 +55,15 @@
     "mem-project_juo_integration-status": {
       "id": "mem-project_juo_integration-status",
       "category": "project_juo_integration",
-      "confidence": 0.56,
-      "accessCount": 2,
+      "confidence": 0.5900000000000001,
+      "accessCount": 3,
       "createdAt": 1776155677290
     },
     "mem-project_juo_integration-huidige-staat-op-de-store": {
       "id": "mem-project_juo_integration-huidige-staat-op-de-store",
       "category": "project_juo_integration",
-      "confidence": 0.6200000000000001,
-      "accessCount": 4,
+      "confidence": 0.6500000000000001,
+      "accessCount": 5,
       "createdAt": 1776155677290
     },
     "mem-project_juo_integration-wat-moet-gebeuren": {
