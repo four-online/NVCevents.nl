@@ -55,7 +55,7 @@ export default function MouseGlow() {
         marginLeft: -450,
         marginTop: -450,
         background:
-          "radial-gradient(circle, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.04) 25%, rgba(255,255,255,0.015) 50%, transparent 75%)",
+          "radial-gradient(circle, rgba(255,255,255,0.12) 0%, rgba(255,255,255,0.07) 25%, rgba(255,255,255,0.03) 50%, transparent 75%)",
         mixBlendMode: "normal",
         opacity: visible ? 1 : 0,
         willChange: "transform",
