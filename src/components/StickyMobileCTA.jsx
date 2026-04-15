@@ -9,7 +9,7 @@ export default function StickyMobileCTA() {
         rel="noopener noreferrer"
         className="block w-full bg-red-600 text-white font-black uppercase tracking-wider py-3 text-center text-sm hover:bg-red-700 transition-colors"
       >
-        Get Tickets
+        Tickets
       </a>
     </div>
   );

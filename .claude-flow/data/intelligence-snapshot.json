@@ -438,5 +438,115 @@
         "accessCount": 0
       }
     ]
+  },
+  {
+    "timestamp": 1776257484744,
+    "nodes": 14,
+    "edges": 8,
+    "pageRankSum": 1,
+    "confidences": [
+      0.495,
+      0.53,
+      0.495,
+      0.495,
+      0.495,
+      0.53,
+      0.495,
+      0.5900000000000001,
+      0.6500000000000001,
+      0.495,
+      0.495,
+      0.495,
+      0.495,
+      0.495
+    ],
+    "accessCounts": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      3,
+      5,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "topPatterns": [
+      {
+        "id": "mem-project_juo_integration-huidige-staat-op-de-store",
+        "summary": "Huidige staat op de store",
+        "confidence": 0.6500000000000001,
+        "pageRank": 0.10159909883513785,
+        "accessCount": 5
+      },
+      {
+        "id": "mem-project_juo_integration-openstaand",
+        "summary": "Openstaand",
+        "confidence": 0.495,
+        "pageRank": 0.16399390350343251,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-huidige-staat--24-maart-2026-",
+        "summary": "Huidige staat (24 maart 2026)",
+        "confidence": 0.495,
+        "pageRank": 0.14646999456134585,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-project_juo_integration-status",
+        "summary": "Status",
+        "confidence": 0.5900000000000001,
+        "pageRank": 0.07306445858749706,
+        "accessCount": 3
+      },
+      {
+        "id": "mem-project_juo_integration-wat-moet-gebeuren",
+        "summary": "Wat moet gebeuren",
+        "confidence": 0.495,
+        "pageRank": 0.12585360198929904,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-MEMORY-feedback",
+        "summary": "Feedback",
+        "confidence": 0.495,
+        "pageRank": 0.07306445858749706,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-MEMORY-memory-index",
+        "summary": "Memory Index",
+        "confidence": 0.53,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 1
+      },
+      {
+        "id": "mem-feedback_no_rebuild_without_sync----",
+        "summary": "---",
+        "confidence": 0.53,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 1
+      },
+      {
+        "id": "mem-feedback_blooms_product_content----",
+        "summary": "---",
+        "confidence": 0.495,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      },
+      {
+        "id": "mem-user_workflow----",
+        "summary": "---",
+        "confidence": 0.495,
+        "pageRank": 0.03949431049197381,
+        "accessCount": 0
+      }
+    ]
   }
 ]

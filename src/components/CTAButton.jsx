@@ -1,6 +1,6 @@
 import { TICKET_URL } from "../data/siteConfig";
 
-export default function CTAButton({ children = "Get Tickets", className = "" }) {
+export default function CTAButton({ children = "Tickets", className = "" }) {
   return (
     <a
       href={TICKET_URL}

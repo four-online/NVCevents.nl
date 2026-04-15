@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "computedAt": 1776248013630,
+  "computedAt": 1776257616659,
   "entries": [
     {
       "id": "mem-project_juo_integration-openstaand",
@@ -201,9 +201,9 @@
       "content": "- **JS/CSS**: Originele deployed versie (design intact)\n- **Liquid section**: Heeft een DOM overlay script dat frequentie labels, prijzen, en selling plan IDs injecteert via Storefront API\n- **Probleem**: DOM overlay is fragiel — hardcoded content flasht, product filtering werkt niet betrouwbaar, React overschrijft DOM wijzigingen",
       "summary": "Huidige staat op de store",
       "category": "project_juo_integration",
-      "confidence": 0.6500000000000001,
+      "confidence": 0.5,
       "pageRank": 0.10159909883513785,
-      "accessCount": 5,
+      "accessCount": 0,
       "words": [
         "css",
         "originele",
@@ -284,9 +284,9 @@
       "content": "De zakelijk-abonnement pagina heeft een React configurator (deployed JS/CSS) die niet vanuit de BloomMembership source gerebuild kan worden omdat de source achterloopt op het deployed design.",
       "summary": "Status",
       "category": "project_juo_integration",
-      "confidence": 0.5900000000000001,
+      "confidence": 0.5,
       "pageRank": 0.07306445858749706,
-      "accessCount": 3,
+      "accessCount": 0,
       "words": [
         "zakelijk-abonnement",
         "pagina",
@@ -381,9 +381,9 @@
       "content": "- [user_workflow.md](user_workflow.md) - User frequently deploys Webflow exports to Netlify via GitHub",
       "summary": "Memory Index",
       "category": "core",
-      "confidence": 0.53,
+      "confidence": 0.5,
       "pageRank": 0.03949431049197381,
-      "accessCount": 1,
+      "accessCount": 0,
       "words": [
         "user",
         "workflow",
@@ -495,9 +495,9 @@
       "content": "name: Never rebuild zakelijk-abonnement without syncing BloomMembership first\ndescription: Rebuilding from BloomMembership source breaks the deployed design because the source is out of date. Always sync source with deployed version first.\ntype: feedback\n---\n\nNOOIT zakelijk-abonnement.js rebuilden vanuit de BloomMembership source zonder eerst te verifiëren dat de source 1:1 matcht met het deployed design.\n\n**Why:** Meerdere keren is de widget kapot gegaan of het design veranderd door een rebuild",
       "summary": "---",
       "category": "feedback_no_rebuild_without_sync",
-      "confidence": 0.53,
+      "confidence": 0.5,
       "pageRank": 0.03949431049197381,
-      "accessCount": 1,
+      "accessCount": 0,
       "words": [
         "name",
         "never",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": 1776248013629,
+  "updatedAt": 1776257616658,
   "nodeCount": 14,
   "nodes": {
     "mem-feedback_blooms_product_content----": {
@@ -13,8 +13,8 @@
     "mem-MEMORY-memory-index": {
       "id": "mem-MEMORY-memory-index",
       "category": "core",
-      "confidence": 0.53,
-      "accessCount": 1,
+      "confidence": 0.5,
+      "accessCount": 0,
       "createdAt": 1776155677288
     },
     "mem-user_workflow----": {
@@ -41,8 +41,8 @@
     "mem-feedback_no_rebuild_without_sync----": {
       "id": "mem-feedback_no_rebuild_without_sync----",
       "category": "feedback_no_rebuild_without_sync",
-      "confidence": 0.53,
-      "accessCount": 1,
+      "confidence": 0.5,
+      "accessCount": 0,
       "createdAt": 1776155677289
     },
     "mem-project_juo_integration----": {
@@ -55,15 +55,15 @@
     "mem-project_juo_integration-status": {
       "id": "mem-project_juo_integration-status",
       "category": "project_juo_integration",
-      "confidence": 0.5900000000000001,
-      "accessCount": 3,
+      "confidence": 0.5,
+      "accessCount": 0,
       "createdAt": 1776155677290
     },
     "mem-project_juo_integration-huidige-staat-op-de-store": {
       "id": "mem-project_juo_integration-huidige-staat-op-de-store",
       "category": "project_juo_integration",
-      "confidence": 0.6500000000000001,
-      "accessCount": 5,
+      "confidence": 0.5,
+      "accessCount": 0,
       "createdAt": 1776155677290
     },
     "mem-project_juo_integration-wat-moet-gebeuren": {

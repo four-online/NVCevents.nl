@@ -24,7 +24,7 @@ export default function FinalCTA() {
         </div>
         <div className="hidden md:block">
           <CTAButton className="text-base sm:text-lg px-10 py-5">
-            Get Tickets
+            Tickets
           </CTAButton>
         </div>
       </div>
