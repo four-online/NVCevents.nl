@@ -21,6 +21,14 @@ export default function FinalCTA() {
             <span className="text-red-500 font-bold uppercase tracking-widest text-xs sm:text-sm mr-2">Doors</span>
             17.00 – 22.30 uur
           </p>
+          <p className="text-gray-300 text-base sm:text-lg pt-4">
+            <span className="text-red-500 font-bold uppercase tracking-widest text-xs sm:text-sm mr-2">Regular</span>
+            € 54,- <span className="text-gray-500 text-sm">ex servicekosten</span>
+          </p>
+          <p className="text-gray-300 text-base sm:text-lg">
+            <span className="text-red-500 font-bold uppercase tracking-widest text-xs sm:text-sm mr-2">Golden Circle</span>
+            € 84,- <span className="text-gray-500 text-sm">ex servicekosten</span>
+          </p>
         </div>
         <div className="hidden md:block">
           <CTAButton className="text-base sm:text-lg px-10 py-5">
