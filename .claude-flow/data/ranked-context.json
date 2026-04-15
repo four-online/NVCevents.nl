@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "computedAt": 1776162654880,
+  "computedAt": 1776248013630,
   "entries": [
     {
       "id": "mem-project_juo_integration-openstaand",
@@ -284,9 +284,9 @@
       "content": "De zakelijk-abonnement pagina heeft een React configurator (deployed JS/CSS) die niet vanuit de BloomMembership source gerebuild kan worden omdat de source achterloopt op het deployed design.",
       "summary": "Status",
       "category": "project_juo_integration",
-      "confidence": 0.56,
+      "confidence": 0.53,
       "pageRank": 0.07306445858749706,
-      "accessCount": 2,
+      "accessCount": 1,
       "words": [
         "zakelijk-abonnement",
         "pagina",
@@ -495,9 +495,9 @@
       "content": "name: Never rebuild zakelijk-abonnement without syncing BloomMembership first\ndescription: Rebuilding from BloomMembership source breaks the deployed design because the source is out of date. Always sync source with deployed version first.\ntype: feedback\n---\n\nNOOIT zakelijk-abonnement.js rebuilden vanuit de BloomMembership source zonder eerst te verifiëren dat de source 1:1 matcht met het deployed design.\n\n**Why:** Meerdere keren is de widget kapot gegaan of het design veranderd door een rebuild",
       "summary": "---",
       "category": "feedback_no_rebuild_without_sync",
-      "confidence": 0.5,
+      "confidence": 0.53,
       "pageRank": 0.03949431049197381,
-      "accessCount": 0,
+      "accessCount": 1,
       "words": [
         "name",
         "never",
