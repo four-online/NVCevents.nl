@@ -5,16 +5,15 @@
   "context": {
     "lastMatchedPatterns": [
       "mem-project_juo_integration-openstaand",
-      "mem-MEMORY-memory-index",
       "mem-project_juo_integration-huidige-staat--24-maart-2026-",
       "mem-project_juo_integration-wat-moet-gebeuren"
     ]
   },
   "metrics": {
-    "edits": 4,
+    "edits": 5,
     "commands": 0,
     "tasks": 0,
     "errors": 0
   },
-  "updatedAt": "2026-04-15T10:23:26.431Z"
+  "updatedAt": "2026-04-15T10:26:05.690Z"
 }

@@ -22,7 +22,7 @@ export default function FinalCTA() {
             17.00 – 22.30 uur
           </p>
         </div>
-        <CTAButton className="text-base sm:text-lg px-10 py-5">
+        <CTAButton className="hidden md:inline-block text-base sm:text-lg px-10 py-5">
           Get Tickets
         </CTAButton>
       </div>
