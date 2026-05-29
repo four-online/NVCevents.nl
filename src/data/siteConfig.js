@@ -39,6 +39,17 @@ export const TICKETS = [
     features: ["Toegang tot het volledige event", "Laatste tickets beschikbaar"],
     soldOut: false,
   },
+  {
+    id: "squad",
+    title: "Squad",
+    price: "€ 180,00",
+    description: "Ticket voor 4 personen",
+    features: [
+      "4x toegang tot het volledige event",
+      "€ 40,50 p.p. + € 4,50 servicekosten",
+    ],
+    soldOut: false,
+  },
 ];
 
 export const LINEUP = [

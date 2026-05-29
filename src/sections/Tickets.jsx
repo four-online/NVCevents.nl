@@ -11,7 +11,7 @@ export default function Tickets() {
         <p className="text-gray-400 text-center mb-12 text-sm uppercase tracking-widest">
           Wees er snel bij — op is op
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {TICKETS.map((ticket) => (
             <TicketCard key={ticket.id} ticket={ticket} />
           ))}

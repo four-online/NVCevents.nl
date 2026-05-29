@@ -48,6 +48,7 @@ export default function Hero() {
           {[
             { price: "€ 54,-", tier: "Regular" },
             { price: "€ 84,-", tier: "Golden Circle" },
+            { price: "€ 180,-", tier: "Squad (4 pers.)" },
           ].map((item) => (
             <div
               key={item.tier}
