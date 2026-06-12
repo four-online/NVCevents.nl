@@ -1,6 +1,5 @@
 import Hero from "./sections/Hero";
 import About from "./sections/About";
-import FAQ from "./sections/FAQ";
 import FinalCTA from "./sections/FinalCTA";
 import StickyMobileCTA from "./components/StickyMobileCTA";
 import BackgroundTexture from "./components/BackgroundTexture";
@@ -14,7 +13,6 @@ export default function App() {
       <div className="relative z-10">
       <Hero />
       <About />
-      <FAQ />
       <FinalCTA />
 
       <footer className="py-6 text-center border-t border-gray-900">

@@ -25,7 +25,10 @@ export default function Hero() {
           {[
             { label: EVENT.dateDisplay, value: "Datum" },
             { label: EVENT.location, value: "Locatie" },
-            { label: EVENT.doors, value: "Doors" },
+            ...EVENT.shows.map((show) => ({
+              label: show.time,
+              value: show.label,
+            })),
           ].map((item) => (
             <div
               key={item.value}
@@ -45,26 +48,14 @@ export default function Hero() {
               Tickets
             </span>
           </div>
-          {[
-            { price: "€ 54,-", tier: "Regular" },
-            { price: "€ 84,-", tier: "Golden Circle" },
-            { price: "€ 180,-", tier: "Squad (4 pers.)" },
-          ].map((item) => (
-            <div
-              key={item.tier}
-              className="border-b border-gray-800 pb-3 flex items-center justify-between"
-            >
-              <span className="text-base sm:text-lg font-black text-white uppercase">
-                {item.price}
-                <span className="ml-2 text-[10px] sm:text-xs font-normal text-gray-500 normal-case tracking-normal">
-                  ex servicekosten
-                </span>
-              </span>
-              <span className="text-[10px] sm:text-xs uppercase tracking-widest text-red-500 font-bold">
-                {item.tier}
-              </span>
-            </div>
-          ))}
+          <div className="border-b border-gray-800 pb-3 flex items-center justify-between">
+            <span className="text-base sm:text-lg font-black text-white uppercase">
+              € 43,70
+            </span>
+            <span className="text-[10px] sm:text-xs uppercase tracking-widest text-red-500 font-bold">
+              Regular
+            </span>
+          </div>
         </div>
 
 <div className="hidden md:block">

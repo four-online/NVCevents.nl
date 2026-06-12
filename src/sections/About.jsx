@@ -1,3 +1,5 @@
+import CTAButton from "../components/CTAButton";
+
 export default function About() {
   return (
     <section className="py-20 sm:py-28 px-4">
@@ -6,14 +8,17 @@ export default function About() {
           New Vintage College Presents: The Playground
         </h2>
         <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-6">
-          Op zaterdag 11 juli neemt CHO het Zuiderpark in Den Haag over voor zijn allereerste open air show.
-          Van 17:00 tot 22:30 verandert het park in een playground waar muziek, good vibes en community samenkomen.
+          Op zaterdag 26 september staat CHO live in het Amsterdamse Bos met zijn
+          allereerste open air shows. Met twee shows op één dag maakt CHO van het
+          Bostheater zijn eigen playground waarin we samen de zomer afsluiten.
         </p>
-        <p className="text-gray-400 text-base leading-relaxed">
-          Met THE PLAYGROUND presenteert CHO naast een spectaculaire live show van 2 uur met special guests,
-          ook een werkelijke full day experience met een line-up aan support acts en DJ's en een terrein waar
-          de hele dag door van alles te ontdekken is: van food tot fashion tot entertainment.
+        <p className="text-gray-400 text-base leading-relaxed mb-10">
+          Haal nu je tickets voor de middagshow om 14:00 of de avondshow om 19:00
+          via de onderstaande button.
         </p>
+        <CTAButton className="text-base sm:text-lg px-10 py-5">
+          Tickets
+        </CTAButton>
       </div>
     </section>
   );
