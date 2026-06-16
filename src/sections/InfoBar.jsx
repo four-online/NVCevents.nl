@@ -22,7 +22,7 @@ export default function InfoBar() {
               <span className="text-xl sm:text-2xl font-black text-white uppercase">
                 {item.label}
               </span>
-              <span className="text-xs uppercase tracking-widest text-red-500 font-bold">
+              <span className="text-xs uppercase tracking-widest text-brand-400 font-bold">
                 {item.value}
               </span>
             </div>

@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-transparent" />
 
       <div className="relative z-10 flex flex-col items-center text-center max-w-4xl mx-auto">
-        <span className="text-[10px] sm:text-xs uppercase tracking-[0.3em] text-red-500 font-bold mb-6">
+        <span className="text-[10px] sm:text-xs uppercase tracking-[0.3em] text-brand-400 font-bold mb-6">
           {EVENT.presenter}
         </span>
 
@@ -17,7 +17,7 @@ export default function Hero() {
           <img
             src={flyerImage}
             alt={`${EVENT.name} - ${EVENT.dateDisplay} - ${EVENT.location}`}
-            className="w-full h-auto shadow-[0_0_60px_rgba(220,38,38,0.2)]"
+            className="w-full h-auto shadow-[0_0_60px_rgba(47,155,214,0.2)]"
           />
         </div>
 
@@ -37,14 +37,14 @@ export default function Hero() {
               <span className="text-base sm:text-lg font-black text-white uppercase">
                 {item.label}
               </span>
-              <span className="text-[10px] sm:text-xs uppercase tracking-widest text-red-500 font-bold">
+              <span className="text-[10px] sm:text-xs uppercase tracking-widest text-brand-400 font-bold">
                 {item.value}
               </span>
             </div>
           ))}
 
           <div className="pt-4">
-            <span className="text-[10px] sm:text-xs uppercase tracking-[0.3em] text-red-500 font-bold">
+            <span className="text-[10px] sm:text-xs uppercase tracking-[0.3em] text-brand-400 font-bold">
               Tickets
             </span>
           </div>
@@ -52,7 +52,7 @@ export default function Hero() {
             <span className="text-base sm:text-lg font-black text-white uppercase">
               € 43,70
             </span>
-            <span className="text-[10px] sm:text-xs uppercase tracking-widest text-red-500 font-bold">
+            <span className="text-[10px] sm:text-xs uppercase tracking-widest text-brand-400 font-bold">
               Regular
             </span>
           </div>

@@ -12,7 +12,7 @@ export default function AccordionItem({ question, answer }) {
       <div
         className={`relative overflow-hidden border-2 transition-all duration-200 ${
           open
-            ? "border-red-600 bg-red-600/10"
+            ? "border-brand-500 bg-brand-500/10"
             : "border-gray-700 bg-black hover:border-gray-500"
         }`}
       >
@@ -39,7 +39,7 @@ export default function AccordionItem({ question, answer }) {
           className="w-full flex items-center gap-3 px-5 py-4 text-left cursor-pointer"
           aria-expanded={open}
         >
-          <span className="text-red-500 text-xl font-bold shrink-0">
+          <span className="text-brand-400 text-xl font-bold shrink-0">
             {open ? "−" : "+"}
           </span>
           <span className="font-black text-sm sm:text-base uppercase tracking-wide text-white">

@@ -6,7 +6,7 @@ export default function CTAButton({ children = "Tickets", className = "" }) {
       href={TICKET_URL}
       target="_blank"
       rel="noopener noreferrer"
-      className={`relative inline-block overflow-hidden bg-red-600 text-white font-black uppercase tracking-wider px-8 py-4 text-sm sm:text-base hover:bg-red-700 hover:scale-105 active:scale-95 transition-all duration-200 ${className}`}
+      className={`relative inline-block overflow-hidden bg-brand-500 text-white font-black uppercase tracking-wider px-8 py-4 text-sm sm:text-base hover:bg-brand-600 hover:scale-105 active:scale-95 transition-all duration-200 ${className}`}
     >
       <span
         className="absolute inset-0 opacity-[0.15] pointer-events-none"
