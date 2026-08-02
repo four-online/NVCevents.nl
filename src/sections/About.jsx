@@ -9,12 +9,12 @@ export default function About() {
         </h2>
         <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-6">
           Op zaterdag 26 september staat CHO live in het Amsterdamse Bos met zijn
-          allereerste open air shows. Met twee shows op één dag maakt CHO van het
-          Bostheater zijn eigen playground waarin we samen de zomer afsluiten.
+          allereerste open air show. Op deze speciale avond vieren we samen de 10
+          year anniversary van Knock Knock 3, hoor je nieuwe muziek en sluiten we
+          samen de zomer af.
         </p>
         <p className="text-gray-400 text-base leading-relaxed mb-10">
-          Haal nu je tickets voor de middagshow om 14:00 of de avondshow om 19:00
-          via de onderstaande button.
+          Haal nu je tickets via de onderstaande button.
         </p>
         <CTAButton className="text-base sm:text-lg px-10 py-5">
           Tickets
