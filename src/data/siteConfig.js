@@ -10,7 +10,7 @@ export const EVENT = {
   dateDisplay: "26 september 2026",
   dayOfWeek: "Zaterdag",
   location: "Amsterdamse Bos",
-  shows: [{ label: "Avondshow", time: "19:00 - 22:00" }],
+  shows: [{ label: "Tijd", time: "19:00 - 22:00" }],
   description:
     "Op zaterdag 26 september staat CHO live in het Amsterdamse Bos met zijn allereerste open air show. Op deze speciale avond vieren we samen de 10 year anniversary van Knock Knock 3, hoor je nieuwe muziek en sluiten we samen de zomer af.",
 };
